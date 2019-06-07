@@ -1503,6 +1503,9 @@ pre .javascript .function {
   border-bottom: 1px dashed #999;
   cursor: help;
 }
+.post-symbolscount {
+  display: inline-block;
+}
 .post-meta-divider {
   margin: 0 0.5em;
 }
@@ -1764,7 +1767,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #2d8146;
+  background: #5d6eb1;
 }
 .feed-link,
 .chat {
@@ -2958,4 +2961,7 @@ ul.breadcrumb li+li:last-child {
   .pagination {
     margin: 8px 0 0;
   }
+}
+.post-toc .nav .nav-level-1>.nav-child {
+  display: block;
 }
