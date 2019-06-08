@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://tlighter.github.io/"/>
-  <updated>2019-06-07T01:14:59.784Z</updated>
+  <updated>2019-06-08T08:15:00.724Z</updated>
   <id>https://tlighter.github.io/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://tlighter.github.io/2019/06/04/post-title/"/>
     <id>https://tlighter.github.io/2019/06/04/post-title/</id>
     <published>2019-06-04T01:46:10.000Z</published>
-    <updated>2019-06-07T01:14:59.784Z</updated>
+    <updated>2019-06-08T08:15:00.724Z</updated>
     
     <content type="html"><![CDATA[<p>#标题1  </p><p>这是一个段落    </p><a id="more"></a><p>##标题2  </p><p>###标题3  </p><p>####标题4  </p><p><strong>这是加粗</strong>  </p><p><em>这是斜体</em>  </p><p><del>这是横线</del>  </p><p>*无序列表    </p><p>*还是无序列表    </p><ol><li>有序列表  </li><li>有序列表  </li></ol><p><del>内嵌代码</del>  </p><pre><code>代码块</code></pre><blockquote><p>   引用  </p></blockquote>]]></content>
     
@@ -44,7 +44,7 @@
     <link href="https://tlighter.github.io/2019/06/03/hello-world/"/>
     <id>https://tlighter.github.io/2019/06/03/hello-world/</id>
     <published>2019-06-03T15:18:42.110Z</published>
-    <updated>2019-06-08T06:05:43.519Z</updated>
+    <updated>2019-06-08T07:36:21.602Z</updated>
     
     <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p><a id="more"></a><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a>   </p><hr><h3 id="个人常用的一些指令"><a href="#个人常用的一些指令" class="headerlink" title="个人常用的一些指令"></a>个人常用的一些指令</h3>]]></content>
     
