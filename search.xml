@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title><![CDATA[centos7中爬虫相关安装]]></title>
+    <url>%2F2020%2F05%2F16%2Fcentos7%E4%B8%AD%E7%88%AC%E8%99%AB%E7%9B%B8%E5%85%B3%E5%AE%89%E8%A3%85%2F</url>
+    <content type="text"><![CDATA[首先，安装centos系统。可参照如下教程： 在 VMware 虚拟机中安装 CentOS 7(图文教程) 注意的是：在进行/boot、/home和swap分区大小设置时，不要太小，不然在后续会出现boot分区满了的尴尬情况。 进入系统后，先进行软件的更新。在应用程序-系统工具-软件更新中进行更新。然后为了避免下载太慢的情况，进行yum源的替换。可参考：更换阿里云 yum 源 安装Python和pip 注意：一定要安装依赖包，不然后期出现问题会比较烦。wget下载会很慢，耐心等待。 具体可参考：Centos7.6 下安装 Python3.7 安装mongodb： 注意：软件的链接(baseurl)自己先确认好再安装。并且只需要安装到正常启动服务即可。 具体可参考：Linux Centos 7 安装 MongoDB（简单！详细！）以及Install MongoDB Community Edition on Red Hat or CentOS 安装Redis： 参考：按照第一种方法安装即可。#requirepass大概在47%的位置。centos7 安装 redis 安装MySQL： 参考：[centos7 mysql 数据库安装和配置] 安装库： 1pip install requests selenium beautifulsoup4 pyquery pymysql pymongo redis flask django jupyter 在安装chrome和chromedriver时可参考：CENTOS 安装 SELENIUM、CHROME、CHROMEDRIVER（驱动） 。核心就是升级chromedrvier到以适配chrome的版本。]]></content>
+      <categories>
+        <category>心得</category>
+      </categories>
+      <tags>
+        <tag>笔记</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[研究生数学模竞赛笔记]]></title>
+    <url>%2F2020%2F03%2F28%2F%E7%A0%94%E7%A9%B6%E7%94%9F%E6%95%B0%E5%AD%A6%E5%BB%BA%E6%A8%A1%E6%AF%94%E8%B5%9B%2F</url>
+    <content type="text"><![CDATA[个人情况说明首先说明一下本人目前概况，本人刚刚入学2019级研究生。在本科阶段未曾参加过数学建模比赛，虽也曾参加过建模培训，但因未参加过建模竞赛，对建模总觉得是隔靴搔痒。或许是缺少了一些经历吧，总觉得对建模没有真切的认识。 于是在刚了解到研究生也可参加数学建模竞赛时，便也想着参与进来。或许是为了弥补空缺的经历，同时最重要的一点便是充实自己，学习一个新的技能。当然能获奖也是最好的了。 赛前准备本次我参加的比赛是“华为杯”第16届中国研究生数学建模竞赛。在9月5日我找好了队友，正式组好了队伍，便开始陆续开始准备建模的相关知识。首先我是在 哔哩哔哩网站上搜索”数学建模”，便能找到相关的竞赛辅导视频，我看了一个“数学建模学习交流心得”。在前两节课程中，我了解到了建模的大致分工即：建模 +编程+论文。我个人对matlab相关操作有过一些基础(在本科中做过相关图像处理系统)，于是便着手于重拾matlab相关操作，同样是在哔哩哔哩网站中，收索”matlab教程”便也可以获得相应教程信息，我看的是up主“正月点灯笼”的matlab教程，虽说只是基础的操作教程，同时也并未涉及到相关的文件操作，但可以达到熟悉matlab的相关操作的任务。 由于我准备时一直都在图书馆，便想着脱离视频教程，找几本相关的书来学习一下，于是我在图书馆中借到了《数学建模案例》同济大学出版社，韩明等编著、《数学建模基础》、《数学建模算法入门》。便也开始阅读《数学建模案例》，通过案例来学习相关的建模和编程技术。时间也逐渐流逝，到了9月11号晚上，学校有个“数学建模赛前培训”，我翘了半节课去听了相关讲座，也获得了不少的收获。在最后的与一个学姐的交谈中，我向她询问道，“对于我这种没有参加过数学建模，并且准备的并不充分的比赛者而言。在接下来的准备阶段中有什么建议呢？”学姐说到，“目前可以不用再深究各种算法建模，建议通过阅读研究之前的获奖论文，从论文中学习不仅学习知识也学习论文的写作等。”于是，我按照学姐的建议，去研究之前论文的知识。 其实读论文的过程就是了解自己到底要做些什么的过程，也并没有真正从中学到什么技能或知识。这一个过程就有些像，在开考之前之前去找到自己的位置，在那里坐会儿熟一下这样的环境和氛围，别让自己真正在考试的时候那么紧张。这个时候离快要正式比赛也没几天了，于是每天就在实验室里读读往届比赛的优秀论文，然后看一些matlab建模的视频，就这样等待着比赛开始。现在的我回顾过去，是会觉得当时我，看论文的方式存在着一些误区的。现在我应该会先看看这一年的几个选题，然后找一个喜欢的，先精读一遍，然后自己再对着比赛题目，尝试自己去解答。毕竟看论文只会得到一些系统性的了解，并且过个一两天就不会记得了，而自己真正的思考，才是真正的学习的过程。 正式比赛就这样，不知不觉中就迎来了正式比赛的日子。其实真正比赛的过程并没有想象中的那么令人恐惧，记得我们组选的是E题，是一道城市规划类的题目。当时花了半天时间，确定好题目之后就开始找论文，进行大量的广泛的阅读。看看论文中别人是怎么实现的，他们的思路和想法，在结合自己的题目，看看有什么可以采取的地方。之后的三天两夜便开始通宵起来，我们用到的工具就只有编程的matlab和写论文时用到的WPS（提醒一下，大家使用的软件的提前都最好沟通一下）。然后我们就进行了分工，我负责建模，另外一个男生负责处理数据，还有个女生负责写论文。我们是找了几篇论文作为切入点，大体的方法、模型、论文结构等都是安装这几篇论文综合来进行的。每个人都有了任务之后就加班加点的工作，我们两个主要负责编程这一块，是一直在一起进行码代码的，在任何时候都能一起沟通，我觉得挺好的。最后，在经过这三天两夜的码代码加写论文的过程之后，我们好歹也算是完成了E题主要的前两个问，然后就是在9月23号11点左右把论文提交了上去。这整个比赛的过程是痛并快乐的，尽管每天就只有几个小时的睡眠，但在当时的那个一起比赛的氛围，还是很令我享受的。 赛后感受在整个比赛的过程中，我们还是有很多问题的，比如太过慌张、没有利用老师的资源、论文与代码实现太脱节等等。对我个人而言，它还是满足了我初始的对数学建模比赛的一探究竟的这一愿望的，因此我还是很幸福的。对了，成绩忘说了，成功参赛奖。]]></content>
+      <categories>
+        <category>心得</category>
+      </categories>
+      <tags>
+        <tag>笔记</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[Hexo和Markdown,Hello World！]]></title>
+    <url>%2F2019%2F07%2F05%2Fhello-world%2F</url>
+    <content type="text"><![CDATA[Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick StartCreate a new post1$ hexo new "My New Post" More info: Writing Run server1$ hexo server More info: Server Generate static files1$ hexo generate More info: Generating Deploy to remote sites1$ hexo deploy More info: Deployment Markdown标题1这是一个段落 标题2标题3标题4这是加粗 这是斜体 这是横线 无序列表 还是无序列表 有序列表 有序列表 内嵌代码 1代码块 引用]]></content>
+      <categories>
+        <category>技术</category>
+      </categories>
+      <tags>
+        <tag>教程</tag>
+      </tags>
+  </entry>
+</search>
